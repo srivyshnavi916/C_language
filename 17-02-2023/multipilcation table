@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+   int i,n;
+   printf("enter any table");
+   scanf("%d",&n);
+   table:
+   {
+       printf("%d %d = %d\n",n,i,n*i);
+   }
+   i++;
+   if(i<11)
+   goto table;
+    return 0;
+}
