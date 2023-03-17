@@ -1,0 +1,30 @@
+//Passing array to function
+/*#include<stdio.h>
+void readMat(int mat[3][3],int r, int c){
+	int i,j;
+	for(i=0;i<r;i++){
+		for(j=0;j<c;j++){
+			scanf("%d",&mat[i][j]);
+		}
+	}
+}
+void printMat(int mat[3][3],int r, int c){
+	int i,j;
+	for(i=0;i<r;i++){
+		for(j=0;j<c;j++){
+			printf("%d ",mat[i][j]);
+		}
+		printf("\n");
+	}
+}
+void main(){
+	int a[3][3], b[3][3];
+	printf("Enter elements into Mat-A\n");
+	readMat(a,3,3);
+	printf("Enter elements into Mat-B\n");
+	readMat(b,3,3);
+	printf("Elements of Mat-A\n");
+	printMat(a,3,3);
+	printf("Elements of Mat-B\n");
+	printMat(b,3,3);
+}
