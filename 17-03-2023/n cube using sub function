@@ -1,0 +1,14 @@
+#include<stdio.h>
+void cube(); //function declaration
+void cube() //function definition
+{
+int number,cube;
+printf("enter a number : ");
+scanf("%d",&number);
+cube = number*number*number; //Formula to find the cube of a number
+printf("\ncube of number = %d\n",cube);
+}
+int main()
+{
+cube(); //Calling the function
+}
