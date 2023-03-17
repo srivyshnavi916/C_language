@@ -1,0 +1,30 @@
+/*
+//2-D matrix-to-read-and-print
+#include <stdio.h>
+main()
+{
+	int r,c;
+	int i,j;
+	scanf("%d",&r);
+	scanf("%d",&c);
+	int arr[r][c];  //declaraion
+	for(i=0;i<r;i++)
+	{
+		for(j=0;j<c;j++)
+		{
+			scanf("%d",&arr[i][j]);
+		}
+	}
+	
+	// printing 
+	for(i=0;i<r;i++)
+	{
+		for(j=0;j<c;j++)
+		{
+			printf("%d ",arr[i][j]);
+		}
+		printf("\n");
+	}
+}
+*/
+/*
