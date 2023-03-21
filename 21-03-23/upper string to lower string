@@ -1,0 +1,22 @@
+*/
+//write a program to convert upper string to lower string
+//dont use existing functions
+/*
+ch                    i
+    0   1   2    3    4
+    T   E   J    A   '\0'
+    t   e   j    a
+
+#include<stdio.h>
+main()
+{
+	char ch[30];
+	int i;
+	printf("Enter upper string:");
+	scanf("%s",ch);
+	for(i=0;ch[i]!='\0';i++)
+	{
+		ch[i]=ch[i]+32;
+	}
+printf("%s",ch);
+}
