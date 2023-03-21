@@ -1,0 +1,23 @@
+/*write a program to count total numbers of characters
+in a string without using existing function*/
+
+#include<stdio.h>
+main()
+{
+	char ch[30];
+	int i,c=0;
+	printf("Enter name:");
+	scanf("%s",&ch);
+    for(i=0;ch[i]!='\0';i++)
+    {
+    c++;//6
+}
+    printf("%d",c);
+}
+
+*/
+ch=rajesh
+                             i
+   0   1   2   3   4    5    6
+   r   a   j   e   s    h   '\0' */
+
