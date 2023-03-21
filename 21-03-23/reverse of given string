@@ -1,0 +1,42 @@
+/*write a program to print reverse of
+the given string without using existing functions*/
+
+0   1   2   3   4    5
+h   e   l   l   o   '\0'
+olleh
+
+
+c=5
+
+#include<stdio.h>
+main()
+{
+	char ch[100];
+	int i,c=0;
+	scanf("%s",ch);
+	for(i=0;ch[i]!='\0';i++)//finding string size
+	{
+		c++;
+	}
+	for(i=c-1;i>=0;i--)//printing characters in reverse order
+	{
+	printf("%c",ch[i]);
+}
+}
+#include<stdio.h>
+#include<string.h>
+main()
+{
+	char ch[20];
+	scanf("%s",ch);
+	strrev(ch);
+	printf("%s",ch);
+}
+
+/*
+input:
+0 1 2 3 4 5 6                         25
+t h i s   i s aditya degree college   '\o'
+output:
+This Is Aditya Degree College
+*/
